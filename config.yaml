@@ -2,6 +2,7 @@ baseURL: https://domainname.pub/
 title: "Domain Name Publication"
 languageCode: zh-cn
 theme: kidlat
+defaultContentLanguage: zh-cn
 
 outputs:
   home:
@@ -33,3 +34,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
+#minify:
+#  minifyOutput: true  
